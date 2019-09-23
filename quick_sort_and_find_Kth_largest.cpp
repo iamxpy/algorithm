@@ -4,7 +4,7 @@ using namespace std;
 
 
 /*
-利用分治法，设计时间复杂度为O(N)的算法，找到数组中第k大的元素。
+利用partition，解决两个问题。1. 快速排序。2. 找到数组中第k大的元素。
 */
 int partition(vector<int> &a,int p, int r)
 {
